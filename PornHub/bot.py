@@ -20,9 +20,9 @@ class PornHub(Client):
         super().__init__(
             name=name,
             app_version=f"PornHub v{__version__}",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=TOKEN,
+            api_id=8477635,
+            api_hash=7f6c3de9e4f760752e02da32c401f24d,
+            bot_token=6869078764:AAHi4EuUBSf0vI5j1xi5ivrzalkSJHNLWSg,
             plugins=dict(root="pornhub.plugins"),
             in_memory=True,
         )
