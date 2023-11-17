@@ -2,7 +2,7 @@ import sys
 import logging
 import platform
 
-from .bot import PornHub
+from bot import PornHub
 from pyrogram import idle
 from asyncio import get_event_loop_policy
 
